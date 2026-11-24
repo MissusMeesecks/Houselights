@@ -1,6 +1,6 @@
 # Houselights
 
-Normally you watch your character's story. Now they watch yours — your game, your screen, your terrible decisions — and react as it happens.
+Your character lives in your chat. Now the house lights are up, and they can see out — your game, your screen, your terrible decisions — and react as it happens.
 
 **The fourth wall had a good run.**
 
