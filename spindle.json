@@ -1,0 +1,21 @@
+{
+  "version": "1.0.0",
+  "name": "Houselights",
+  "identifier": "houselights",
+  "author": "MissusMeesecks",
+  "github": "https://github.com/MissusMeesecks/Houselights",
+  "homepage": "https://github.com/MissusMeesecks/Houselights",
+  "description": "Your character watches your screen and heckles you about it. Screen, webcam or photo, in-character, in your chat.",
+  "permissions": [
+    "generation",
+    "chat_mutation",
+    "chats",
+    "characters",
+    "ui_panels",
+    "media",
+    "web_search"
+  ],
+  "entry_backend": "dist/backend.js",
+  "entry_frontend": "dist/frontend.js",
+  "minimum_lumiverse_version": "0.9.7"
+}

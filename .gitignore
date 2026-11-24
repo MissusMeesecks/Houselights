@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# NOTE: dist/ is deliberately NOT ignored. Lumiverse installs extensions
+# straight from a GitHub URL, so the built bundles must be committed for
+# install-by-URL to work. The reference extension (CharacterNudges) does the
+# same. Always run `bun run build` before committing a change to src/.
+
+# Secrets. The VLM API key lives here. Never commit this file.
+.env
+.env.*
+!.env.example
+
+# Captured frames / debug output from the Eyes helper
+captures/
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+logs/
